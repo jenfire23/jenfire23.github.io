@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gun Dach</title>
+</head>
+<style>
+    :root {
+        overflow: hidden;
+    }
+    #body {
+        display: grid; 
+        position: relative; 
+        overflow: hidden; 
+        height: 1000%; 
+        width: 100%; 
+        margin: 0;
+    }
+    #horse {
+        grid-row: 0;
+        height: 10000px;
+        width: 100vw;
+        margin-top: 10px;
+        color: orange;
+    }
+    .scrollbar {
+        -ms-overflow-style: none;
+    }
+    .scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .txt {
+        text-align: center;
+        font-family: Arial SemiBold;
+        max-height: 80px;
+    }
+    #headline {
+        font-size: 50px;
+    }
+    #subline {
+        font-size: 20px;
+    }
+
+</style>
+<body class="scrollbar">
+    <div class="scrollbar" id="body">
+        <span class="txt" id="headline">Auf dieser Seite gibt es noch nichts...</span>
+        <span class="txt" id="subline">Stattdessen hier ein Pferd.</span>
+        <div class="scrollbar">
+            <iframe class="scrollbar" id="horse" src="http://endless.horse/" frameborder="0"></iframe>
+        </div>
+    </div>
+</body>
+</html>
