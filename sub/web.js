@@ -15,10 +15,10 @@ fetch('values.json')
 })
 
 function json_out(data) {
-  for (const col in data) {
-    console.log(`Col ${data[col]}:`)
-    for (const row in col) {
-      console.log(`Row ${data[col][row]}:`)
-    }
-  }
+  data.forEach(obj => {
+    Object.entries(obj).forEach(([key, value]) => {
+        console.log(`${key} ${value}`);
+    });
+    console.log('-------------------');
+});
 }
