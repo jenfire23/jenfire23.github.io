@@ -52,7 +52,8 @@ function createChart(ch_data, ch_labels, type){
         y: {
           beginAtZero: true
         }
-      }
+      },
+      maintainAspectRatio: false
     }
   });
 }
