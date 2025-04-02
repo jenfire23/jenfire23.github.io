@@ -18,7 +18,7 @@ function json_out(data) {
   for (var col of data) {
     console.log(`${data[col]}:`)
     for (var row of col) {
-      console.log(`${data[col][row]}:`)
+      console.log(`${col[row]}:`)
     }
   }
 }
