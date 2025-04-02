@@ -22,7 +22,7 @@ function json_out(data) {
       console.log(`${col} \----------`);
       for (var row of Object.keys(data[el][col])) {
         console.log(`${row}: ${data[el][col][row]}`);
-        var ch_l = data[el][col]
+        var ch_l = row
         var ch_d = data[el][col][row]
         ch_labels.push(ch_l)
         ch_data.push(ch_d)
