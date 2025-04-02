@@ -31,10 +31,10 @@ function addData(chart, label, newData) {
 
 
 function createChart(data, type){
-new Chart1(ctx, {
+new Chart(ctx, {
   type: type,
   data: {
-    labels: Object.keys(data),
+    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
     datasets: [{
       label: '# of Votes',
       data: [12, 19, 3, 5, 2, 3],
