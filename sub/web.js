@@ -16,12 +16,19 @@ fetch('values.json')
 
 function json_out(data) {
   for (var el of Object.keys(data)) {
-    console.log(`${el}:`);
+    var ch_labels = []
+    var ch_data = []
     for (var col of Object.keys(data[el])) {
-      console.log(`  ${col}: ${data[el][col]}`);
+      console.log(`${col} \----------`);
       for (var row of Object.keys(data[el][col])) {
-        console.log(`  ${row}: ${data[el][col][row]}`);
+        console.log(`${row}: ${data[el][col][row]}`);
+        var ch_l = data[el][col]
+        var ch_d = data[el][col][row]
+        ch_labels.push(ch_l)
+        ch_data.push(ch_d)
       }
     }
+    console.log(ch_labels)
+    console.log(ch_data)
   }
 }
