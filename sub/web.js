@@ -16,9 +16,9 @@ fetch('values.json')
 
 function json_out(data) {
   for (const col of data) {
-    console.log(`Col ${data[col]}:`)
+    console.log(`${data[col]}:`)
     for (const row of col) {
-      console.log(`Row ${data[col][row]}:`)
+      console.log(`${data[col][row]}:`)
     }
   }
 }
