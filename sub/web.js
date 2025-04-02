@@ -11,11 +11,14 @@ fetch('values.json')
 
 .then(function(data){
     console.log(data)
+    json_out(data)
 })
 
-for (const col in data) {
-  console.log(`${col}:`)
-  for (const row in col) {
-    console.log(`${row}:`)
+function json_out(data) {
+  for (const col in data) {
+    console.log(`${col}:`)
+    for (const row in col) {
+      console.log(`${row}:`)
+    }
   }
 }
