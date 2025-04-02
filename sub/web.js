@@ -30,5 +30,29 @@ function json_out(data) {
     }
     console.log(ch_labels)
     console.log(ch_data)
+
+
+    createChart(ch_data, ch_labels, type)
   }
+}
+
+function createChart(ch_data, ch_labels, type){
+  new Chart(ctx, {
+    type: type,
+    data: {
+      labels: ch_labels,
+      datasets: [{
+        label: '# of Votes',
+        data: ch_data,
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
 }
