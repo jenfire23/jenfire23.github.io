@@ -24,6 +24,7 @@ function json_out(data) {
         console.log(`${row}: ${data[el][col][row]}`);
         var ch_l = row
         var ch_d = data[el][col][row]
+        var ch_type = col
         ch_labels.push(ch_l)
         ch_data.push(ch_d)
       }
@@ -32,7 +33,7 @@ function json_out(data) {
     console.log(ch_data)
 
 
-    createChart(ch_data, ch_labels, type)
+    createChart(ch_data, ch_labels, ch_type, type)
   }
 }
 
