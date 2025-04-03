@@ -1,5 +1,5 @@
 const ctx = document.getElementById('myChart');
-var type = 'doughnut'
+var type = 'bar'
 
 
 fetch('values.json')
