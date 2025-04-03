@@ -16,12 +16,18 @@ fetch('values.json')
 
 function json_out(data) {
   var ch_chart = []
-  for (var el of Object.keys(data)) {
+  for (var el of Object.keys(data)) { // json
     var ch_labels = []
     var ch_data = []
-    for (var col of Object.keys(data[el])) {
+    for (var col of Object.keys(data[el])) { // column
       console.log(`${col} \----------`);
-      for (var row of Object.keys(data[el][col])) {
+
+      var element = document.createElement("button");
+      element.appendChild(document.createTextNode(col));
+      var page = document.getElementById("votee");
+      page.appendChild(element);
+
+      for (var row of Object.keys(data[el][col])) { // row
         console.log(`${row}: ${data[el][col][row]}`);
         var ch_l = row
         var ch_d = data[el][col][row]
