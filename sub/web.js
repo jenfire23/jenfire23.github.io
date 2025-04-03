@@ -30,7 +30,7 @@ function json_out(data) {
         ch_data.push(ch_d)
       }
     }
-    ch_chart.push({type: type, data: {labels: ch_labels, datasets: [{label: ch_type, data: ch_data, borderWidth: 1}]},})
+    ch_chart.push({type: type, data: {labels: ch_labels, datasets: [{label: ch_type, data: ch_data, borderWidth: 1}]}})
     console.log(ch_labels)
     console.log(ch_data)
     console.log(ch_chart)
