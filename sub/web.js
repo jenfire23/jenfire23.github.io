@@ -15,6 +15,7 @@ fetch('values.json')
 })
 
 function json_out(data) {
+  var ch_chart = []
   for (var el of Object.keys(data)) {
     var ch_labels = []
     var ch_data = []
@@ -29,25 +30,19 @@ function json_out(data) {
         ch_data.push(ch_d)
       }
     }
+    ch_chart.push({type: type, data: {labels: ch_labels, datasets: [{label: ch_type, data: ch_data, borderWidth: 1}]},})
     console.log(ch_labels)
     console.log(ch_data)
 
 
-    createChart(ch_data, ch_labels, ch_type, type)
+    createChart(ch_data, ch_labels, ch_type, type, ch_chart)
   }
 }
 
-function createChart(ch_data, ch_labels, ch_type, type){
+function createChart(ch_data, ch_labels, ch_type, type, ch_chart){
   new Chart(ctx, {
-    type: type,
-    data: {
-      labels: ch_labels,
-      datasets: [{
-        label: ch_type,
-        data: ch_data,
-        borderWidth: 1
-      }]
-    },
+    ch_chart,
+    
     options: {
       indexAxis: 'x',
       scales: {
