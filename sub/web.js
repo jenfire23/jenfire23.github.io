@@ -36,13 +36,21 @@ function json_out(data) {
     console.log(ch_chart)
 
 
-    createChart(ch_data, ch_labels, ch_type, type, ch_chart)
+    createChart(ch_data, ch_labels, ch_type, type)
   }
 }
 
-function createChart(ch_data, ch_labels, ch_type, type, ch_chart){
+function createChart(ch_data, ch_labels, ch_type, type){
   new Chart(ctx, {
-    ch_chart,
+    type: type,
+    data: {
+      labels: ch_labels,
+      datasets: [{
+        label: ch_type,
+        data: ch_data,
+        borderWidth: 1
+      }]
+    },
     
     options: {
       indexAxis: 'x',
