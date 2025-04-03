@@ -48,7 +48,7 @@ function createChart(ch_data, ch_labels, type){
       }]
     },
     options: {
-      indexAxis: 'y',
+      indexAxis: 'x',
       scales: {
         x: {
           stacked: true
