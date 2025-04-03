@@ -1,15 +1,36 @@
 <title>Graph View</title>
 <style>
-  #ch-div {
+  #ch-div, #content, #chart {
     height: 100%;
     width: 100%;
   }
+  #content{
+    display: grid;
+    position: relative;
+    grid-template-columns: [chart]70% [table]30%;
+  }
+  #chart {
+    display: grid;
+    position: relative;
+    grid-template-rows: [vote]10% [display]auto;
+  }
+  #votee {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(5, auto);
+  }
 </style>
 <body>
-    <div id="ch-div">
+  <div id="content">
+    <div id="chart">
+      <div id="ch-div">
+        <div id="votee">
+          <div>HOHAHEHOHO</div>
+        </div>
         <canvas id="myChart" height="100vh"></canvas>
       </div>
-      
+    </div>
+  </div>
       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
       <script src="web.js"></script>
 </body>
