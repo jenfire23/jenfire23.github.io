@@ -11,10 +11,10 @@ fetch('values.json')
 
 .then(function(data){
     console.log(data)
-    json_out(data)
+    json_out(data, 1)
 })
 
-function json_out(data) {
+function json_out(data, cr) {
   var ch_chart = []
   for (var el of Object.keys(data)) { // json
     console.log(el)
@@ -32,13 +32,14 @@ function json_out(data) {
         ch_data.push(ch_d)
       }
     }
-    ch_chart.push({type: type, data: {labels: ch_labels, datasets: [{label: ch_type, data: ch_data, borderWidth: 1}]}})
     console.log(ch_labels)
     console.log(ch_data)
     console.log(ch_chart)
 
-
-    createChart(ch_data, ch_labels, ch_type, type)
+    if (cr == 1) {
+      createChart(ch_data, ch_labels, ch_type, type)
+      cr = 0
+    }
   }
 }
 
