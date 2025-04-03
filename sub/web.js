@@ -22,10 +22,7 @@ function json_out(data) {
     for (var col of Object.keys(data[el])) { // column
       console.log(`${col} \----------`);
 
-      var element = document.createElement("button");
-      element.appendChild(document.createTextNode(col));
-      var page = document.getElementById("votee");
-      page.appendChild(element);
+      new_btn(col)
 
       for (var row of Object.keys(data[el][col])) { // row
         console.log(`${row}: ${data[el][col][row]}`);
@@ -44,6 +41,15 @@ function json_out(data) {
 
     createChart(ch_data, ch_labels, ch_type, type)
   }
+}
+
+
+function new_btn(col) {
+  var element = document.createElement("button");
+  element.appendChild(document.createTextNode(col));
+  element.id = `votebtn-${col}`
+  var page = document.getElementById("votee");
+  page.appendChild(element);
 }
 
 function createChart(ch_data, ch_labels, ch_type, type){
