@@ -37,13 +37,13 @@ function json_out(data) {
   }
 }
 
-function createChart(ch_data, ch_labels, type){
+function createChart(ch_data, ch_labels, ch_type, type){
   new Chart(ctx, {
     type: type,
     data: {
       labels: ch_labels,
       datasets: [{
-        label: '# of Votes',
+        label: ch_type,
         data: ch_data,
         borderWidth: 1
       }]
