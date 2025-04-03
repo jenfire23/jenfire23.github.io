@@ -17,13 +17,12 @@ fetch('values.json')
 function json_out(data) {
   var ch_chart = []
   for (var el of Object.keys(data)) { // json
+    console.log(el)
     var ch_labels = []
     var ch_data = []
     for (var col of Object.keys(data[el])) { // column
       console.log(`${col} \----------`);
-
       new_btn(col)
-
       for (var row of Object.keys(data[el][col])) { // row
         console.log(`${row}: ${data[el][col][row]}`);
         var ch_l = row
