@@ -1,5 +1,6 @@
 const ctx = document.getElementById('myChart');
 var type = 'bar'
+var webchart
 
 
 fetch('values.json')
