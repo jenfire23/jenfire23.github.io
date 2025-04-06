@@ -53,7 +53,11 @@ function new_btn(col) {
 }
 
 function createChart(ch_data, ch_labels, ch_type, type){
-  new Chart(ctx, {
+  if (webchart) {
+    webchart.destroy()
+  }
+
+  webchart = new Chart(ctx, {
     type: type,
     data: {
       labels: ch_labels,
