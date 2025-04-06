@@ -15,6 +15,12 @@ fetch('values.json')
     json_out(data, 1)
 })
 
+fetch('info.json')
+    .then(response => response.json()) // Parse JSON
+    .then(data => console.log(data)) // Work with JSON data
+    .catch(error => console.error('Error fetching JSON:', error));
+
+
 function json_out(data, cr) {
   var ch_chart = []
   for (var el of Object.keys(data)) { // json
