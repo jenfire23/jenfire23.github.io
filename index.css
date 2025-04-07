@@ -46,3 +46,7 @@
 .ft, .foot-title {
     margin: 0 0 0 50px;
 }
+
+#time-u, #time-d {
+    text-align: left;
+}
