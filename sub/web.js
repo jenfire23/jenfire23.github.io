@@ -15,7 +15,7 @@ fetch('values.json')
     json_out(data, 1)
 })
 
-fetch('sub/info.json')
+fetch('info.json')
     .then(response => response.json()) // Parse JSON
     .then(data => console.log(data)) // Work with JSON data
     .catch(error => console.error('Error fetching JSON:', error));

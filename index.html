@@ -52,7 +52,7 @@
         <div class="ft">GitHub</div>
     </div>
     <script>
-        fetch('info.json')
+        fetch('sub/info.json')
             .then(response => response.json()) // Parse JSON
             .then(data => console.log(data)) // Work with JSON data
             .catch(error => console.error('Error fetching JSON:', error));
