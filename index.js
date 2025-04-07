@@ -2,8 +2,8 @@ fetch('sub/info.json')
             .then(response => response.json()) // Parse JSON
             .then(function(data) {
                 console.log(data) // Work with JSON data
-                var time_u = data["update_time"]
-                var time_d = data["data_time"]
+                var time_u = `Website updated: ${data["update_time"]}`
+                var time_d = `Data updated: ${data["data_time"]}`
                 console.log(time_u, time_d)
 
                 var txt_u = document.createElement("div");

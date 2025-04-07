@@ -48,5 +48,6 @@
 }
 
 #time-u, #time-d, #times {
-    text-align: left;
+    text-align: right;
+    font-size: 80%;
 }
