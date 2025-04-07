@@ -5,8 +5,8 @@ fetch('sub/info.json')
                 var time_u = data["update_time"]
                 var time_d = data["data_time"]
                 console.log(time_u, time_d)
-                document.getElementById("time-u").textContent(txt_u)
-                document.getElementById("time-d").textContent(txt_d)
+                document.getElementById("txt-u").textContent(time_u)
+                document.getElementById("txt-d").textContent(time_d)
             })
             .catch(error => console.error('Error fetching JSON:', error));
             
