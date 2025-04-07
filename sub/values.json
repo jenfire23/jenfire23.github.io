@@ -1,22 +1,22 @@
 [
  {
   "Type": {
-   "MacBook": 1
+   "MacBook": 2
   }
  },
  {
   "Name": {
-   "MacBook Air M4": 1
+   "MacBook Air M4": 2
   }
  },
  {
   "Price": {
-   "999.0": 1
+   "999.0": 2
   }
  },
  {
   "Year": {
-   "2025": 1
+   "2025": 2
   }
  }
 ]
