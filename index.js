@@ -8,7 +8,3 @@ fetch('sub/info.json')
                 document.getElementById("txt-u").textContent(time_u)
                 document.getElementById("txt-d").textContent(time_d)
             })
-            .catch(error => console.error('Error fetching JSON:', error));
-            
-
-        
