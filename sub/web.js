@@ -38,7 +38,8 @@ function graph_out(data) {
   console.log(data)
   for (var tp of Object.keys(data)) {
     console.log(tp)
-    console.log(data[0][tp])
+    for (var tp2 of Object.keys(data[tp]))
+      console.log(data[tp][tp2])
     console.log("------")
   }
 }
