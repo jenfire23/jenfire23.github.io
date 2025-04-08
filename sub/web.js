@@ -49,6 +49,7 @@ function graph_out(data) {
         console.log("------")
         console.log(lst)
         dat[tp4] = lst
+        console.log(dat)
       }
     }
   }
