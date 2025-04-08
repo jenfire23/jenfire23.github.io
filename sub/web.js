@@ -38,6 +38,8 @@ function graph_out(data) {
   console.log(data)
   for (var tp of Object.keys(data)) {
     console.log(tp)
+    console.log(tp["Type"])
+    console.log("------")
   }
 }
 
