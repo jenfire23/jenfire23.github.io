@@ -68,8 +68,8 @@ function json_out(data, cr) {
       createChart(ch_data, ch_labels, ch_type, type)
       cr = 0
     }
-    time_graph()
   }
+  time_graph()
 }
 
 
