@@ -47,6 +47,8 @@ function graph_out(data) {
           lst.push(tp5)
         }
         console.log("------")
+        console.log(lst)
+        dat[tp4] = lst
       }
     }
   }
