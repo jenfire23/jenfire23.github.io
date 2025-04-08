@@ -40,6 +40,8 @@ function graph_out(data) {
     console.log(tp)
     for (var tp2 of Object.keys(data[tp]))
       console.log(data[tp][tp2])
+      for (var tp3 of Object.keys(data[tp][tp2]))
+        console.log(`${tp3}  | ${data[tp][tp2][tp3]}`)
     console.log("------")
   }
 }
