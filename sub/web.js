@@ -36,6 +36,9 @@ function time_graph() {
 
 function graph_out(data) {
   console.log(data)
+  for (var tp of Object.keys(data)) {
+    console.log(tp)
+  }
 }
 
 
