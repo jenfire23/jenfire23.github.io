@@ -35,12 +35,16 @@ function time_graph() {
 }
 
 function graph_out(data) {
+  var dat = {}
   for (var tp of Object.keys(data)) {
     for (var tp2 of Object.keys(data[tp])) {
       for (var tp3 of Object.keys(data[tp][tp2])) {
         console.log(tp3)
+        var lst = []
         for (var tp4 of Object.keys(data[tp][tp2][tp3])) {
-          console.log(`${tp4}  | ${data[tp][tp2][tp3][tp4]}`)
+          var tp5 = data[tp][tp2][tp3][tp4]
+          console.log(`${tp4}  | ${tp5}`)
+          lst.push(tp5)
         }
         console.log("------")
       }
