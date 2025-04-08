@@ -38,10 +38,15 @@ function graph_out(data) {
   console.log(data)
   for (var tp of Object.keys(data)) {
     console.log(tp)
-    for (var tp2 of Object.keys(data[tp]))
+    for (var tp2 of Object.keys(data[tp])) {
       console.log(data[tp][tp2])
-      for (var tp3 of Object.keys(data[tp][tp2]))
-        console.log(`${tp3}  | ${data[tp][tp2][tp3]["Type"]}`)
+      for (var tp3 of Object.keys(data[tp][tp2])) {
+        console.log(`${tp3}  | ${data[tp][tp2][tp3]}`)
+        for (var tp4 of Object.keys(data[tp][tp2][tp3])) {
+          console.log(`${tp4}  | ${data[tp][tp2][tp3][tp4]}`)
+        }
+      }
+    }
     console.log("------")
   }
 }
