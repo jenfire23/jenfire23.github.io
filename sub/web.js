@@ -1,5 +1,5 @@
 const ctx = document.getElementById('myChart');
-var type = 'doughnut'
+var type = 'bar'
 var webchart
 
 
@@ -19,6 +19,24 @@ fetch('info.json')
     .then(response => response.json()) // Parse JSON
     .then(data => console.log(data)) // Work with JSON data
     .catch(error => console.error('Error fetching JSON:', error));
+
+function time_graph() {
+  fetch('detail.json')
+  .then(function(response){
+      if (response.ok == true) {
+          return response.json()
+      }
+  })
+
+  .then(function(data){
+      console.log(data)
+      graph_out(data)
+  })
+}
+
+function graph_out(data) {
+  console.log(data)
+}
 
 
 function json_out(data, cr) {
