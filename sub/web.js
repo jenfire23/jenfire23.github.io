@@ -1,5 +1,5 @@
 const ctx = document.getElementById('myChart');
-var type = 'bar'
+var type = 'doughnut'
 var webchart
 
 
