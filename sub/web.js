@@ -112,6 +112,7 @@ function createChart(ch_data, ch_labels, ch_type, type){
     },
     
     options: {
+      animation: {duration: 0},
       indexAxis: 'x',
       scales: {
         x: {
