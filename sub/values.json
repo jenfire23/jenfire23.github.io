@@ -1,41 +1,30 @@
 [
  {
   "Note": {
-   "3.0": 3,
-   "2.0": 5,
-   "4.0": 1,
-   "1.0": 5,
-   "6.0": 1,
-   "5.0": 1
+   "1.0": 1,
+   "2.0": 2,
+   "3.0": 2,
+   "4.0": 2,
+   "5.0": 1,
+   "6.0": 1
   }
  },
  {
-  "Vorname": {
-   "": 16
-  }
- },
- {
-  "Nachname": {
-   "": 16
+  "Name": {
+   "": 9
   }
  },
  {
   "Typ": {
-   "Klausur": 11,
-   "Vokabeltest": 1,
-   "Test": 1,
-   "Ausarbeitung": 1,
-   "Pr\u00fcfung": 2
+   "Klausur": 9
   }
  },
  {
   "Fach": {
-   "Mathematik": 2,
    "Deutsch": 6,
-   "Englisch": 1,
    "ITN": 1,
-   "Politik": 1,
-   "AEW": 5
+   "Englisch": 1,
+   "AEW": 1
   }
  }
 ]
