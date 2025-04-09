@@ -1,9 +1,9 @@
 [
  {
   "Note": {
-   "1.0": 1,
-   "2.0": 2,
-   "3.0": 2,
+   "1.0": 5,
+   "2.0": 6,
+   "3.0": 3,
    "4.0": 2,
    "5.0": 1,
    "6.0": 1
@@ -11,20 +11,26 @@
  },
  {
   "Name": {
-   "": 9
+   "": 18
   }
  },
  {
   "Typ": {
-   "Klausur": 9
+   "Klausur": 13,
+   "Test": 1,
+   "Ausarbeitung": 1,
+   "Pr\u00e4sentation": 2,
+   "Projekt": 1
   }
  },
  {
   "Fach": {
-   "Deutsch": 6,
-   "ITN": 1,
-   "Englisch": 1,
-   "AEW": 1
+   "Deutsch": 8,
+   "ITN": 3,
+   "Englisch": 2,
+   "AEW": 3,
+   "Politik": 1,
+   "Mathematik": 1
   }
  }
 ]

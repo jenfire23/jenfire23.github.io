@@ -161,6 +161,234 @@
     "Englisch": 1,
     "AEW": 1
    }
+  },
+  "10": {
+   "Note": {
+    "1.0": 2,
+    "2.0": 2,
+    "3.0": 2,
+    "4.0": 2,
+    "5.0": 1,
+    "6.0": 1
+   },
+   "Name": {
+    "": 10
+   },
+   "Typ": {
+    "Klausur": 10
+   },
+   "Fach": {
+    "Deutsch": 6,
+    "ITN": 1,
+    "Englisch": 1,
+    "AEW": 2
+   }
+  },
+  "11": {
+   "Note": {
+    "1.0": 3,
+    "2.0": 2,
+    "3.0": 2,
+    "4.0": 2,
+    "5.0": 1,
+    "6.0": 1
+   },
+   "Name": {
+    "": 11
+   },
+   "Typ": {
+    "Klausur": 11
+   },
+   "Fach": {
+    "Deutsch": 7,
+    "ITN": 1,
+    "Englisch": 1,
+    "AEW": 2
+   }
+  },
+  "12": {
+   "Note": {
+    "1.0": 4,
+    "2.0": 2,
+    "3.0": 2,
+    "4.0": 2,
+    "5.0": 1,
+    "6.0": 1
+   },
+   "Name": {
+    "": 12
+   },
+   "Typ": {
+    "Klausur": 11,
+    "Test": 1
+   },
+   "Fach": {
+    "Deutsch": 7,
+    "ITN": 1,
+    "Englisch": 1,
+    "AEW": 2,
+    "Politik": 1
+   }
+  },
+  "13": {
+   "Note": {
+    "1.0": 4,
+    "2.0": 3,
+    "3.0": 2,
+    "4.0": 2,
+    "5.0": 1,
+    "6.0": 1
+   },
+   "Name": {
+    "": 13
+   },
+   "Typ": {
+    "Klausur": 11,
+    "Test": 1,
+    "Ausarbeitung": 1
+   },
+   "Fach": {
+    "Deutsch": 7,
+    "ITN": 1,
+    "Englisch": 1,
+    "AEW": 2,
+    "Politik": 1,
+    "Mathematik": 1
+   }
+  },
+  "14": {
+   "Note": {
+    "1.0": 4,
+    "2.0": 4,
+    "3.0": 2,
+    "4.0": 2,
+    "5.0": 1,
+    "6.0": 1
+   },
+   "Name": {
+    "": 14
+   },
+   "Typ": {
+    "Klausur": 12,
+    "Test": 1,
+    "Ausarbeitung": 1
+   },
+   "Fach": {
+    "Deutsch": 7,
+    "ITN": 2,
+    "Englisch": 1,
+    "AEW": 2,
+    "Politik": 1,
+    "Mathematik": 1
+   }
+  },
+  "15": {
+   "Note": {
+    "1.0": 5,
+    "2.0": 4,
+    "3.0": 2,
+    "4.0": 2,
+    "5.0": 1,
+    "6.0": 1
+   },
+   "Name": {
+    "": 15
+   },
+   "Typ": {
+    "Klausur": 13,
+    "Test": 1,
+    "Ausarbeitung": 1
+   },
+   "Fach": {
+    "Deutsch": 8,
+    "ITN": 2,
+    "Englisch": 1,
+    "AEW": 2,
+    "Politik": 1,
+    "Mathematik": 1
+   }
+  },
+  "16": {
+   "Note": {
+    "1.0": 5,
+    "2.0": 5,
+    "3.0": 2,
+    "4.0": 2,
+    "5.0": 1,
+    "6.0": 1
+   },
+   "Name": {
+    "": 16
+   },
+   "Typ": {
+    "Klausur": 13,
+    "Test": 1,
+    "Ausarbeitung": 1,
+    "Pr\u00e4sentation": 1
+   },
+   "Fach": {
+    "Deutsch": 8,
+    "ITN": 2,
+    "Englisch": 2,
+    "AEW": 2,
+    "Politik": 1,
+    "Mathematik": 1
+   }
+  },
+  "17": {
+   "Note": {
+    "1.0": 5,
+    "2.0": 5,
+    "3.0": 3,
+    "4.0": 2,
+    "5.0": 1,
+    "6.0": 1
+   },
+   "Name": {
+    "": 17
+   },
+   "Typ": {
+    "Klausur": 13,
+    "Test": 1,
+    "Ausarbeitung": 1,
+    "Pr\u00e4sentation": 2
+   },
+   "Fach": {
+    "Deutsch": 8,
+    "ITN": 3,
+    "Englisch": 2,
+    "AEW": 2,
+    "Politik": 1,
+    "Mathematik": 1
+   }
+  },
+  "18": {
+   "Note": {
+    "1.0": 5,
+    "2.0": 6,
+    "3.0": 3,
+    "4.0": 2,
+    "5.0": 1,
+    "6.0": 1
+   },
+   "Name": {
+    "": 18
+   },
+   "Typ": {
+    "Klausur": 13,
+    "Test": 1,
+    "Ausarbeitung": 1,
+    "Pr\u00e4sentation": 2,
+    "Projekt": 1
+   },
+   "Fach": {
+    "Deutsch": 8,
+    "ITN": 3,
+    "Englisch": 2,
+    "AEW": 3,
+    "Politik": 1,
+    "Mathematik": 1
+   }
   }
  }
 ]
