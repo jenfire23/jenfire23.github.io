@@ -1,33 +1,41 @@
 [
  {
-  "Type": {
-   "MacBook": 6,
-   "iPhone": 11,
-   "iPad": 2
+  "Note": {
+   "3.0": 3,
+   "2.0": 5,
+   "4.0": 1,
+   "1.0": 5,
+   "6.0": 1,
+   "5.0": 1
   }
  },
  {
-  "Name": {
-   "MacBook Air M4": 6,
-   "iPhone 16 Pro": 9,
-   "iPhone 16": 1,
-   "iPad Pro M4": 2,
-   "iPhone 15 Pro Max": 1
+  "Vorname": {
+   "": 16
   }
  },
  {
-  "Price": {
-   "999.0": 6,
-   "1300.0": 9,
-   "900.0": 2,
-   "3000.0": 2
+  "Nachname": {
+   "": 16
   }
  },
  {
-  "Year": {
-   "2025": 6,
-   "2024": 12,
-   "2023": 1
+  "Typ": {
+   "Klausur": 11,
+   "Vokabeltest": 1,
+   "Test": 1,
+   "Ausarbeitung": 1,
+   "Pr\u00fcfung": 2
+  }
+ },
+ {
+  "Fach": {
+   "Mathematik": 2,
+   "Deutsch": 6,
+   "Englisch": 1,
+   "ITN": 1,
+   "Politik": 1,
+   "AEW": 5
   }
  }
 ]
