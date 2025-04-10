@@ -102,7 +102,7 @@ function json_out(data, btn_col) {
 }
 
 
-function new_btn(col) {
+function new_btn(data, col) {
   var element = document.createElement("button");
   element.appendChild(document.createTextNode(col));
   element.id = `votebtn-${col}`
