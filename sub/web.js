@@ -117,8 +117,11 @@ function change_typ(i_typ) {
   var typs = ["bar", "pie", "line"]
   if (i_typ != 2) {
     i_typ += 1
-    type = typs[i_typ]
   }
+  else {i_typ = 0}
+  type = typs[i_typ]
+  console.log(i_typ)
+  console.log(type)
 }
 
 
