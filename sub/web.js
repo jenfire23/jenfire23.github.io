@@ -114,7 +114,7 @@ function new_btn(data, col) {
 
 
 
-function change_typ(i_typ) {
+function change_typ() {
   var typs = ["bar", "pie", "line"]
   if (i_typ != 2) {
     i_typ += 1
@@ -123,6 +123,7 @@ function change_typ(i_typ) {
   type = typs[i_typ]
   console.log(i_typ)
   console.log(type)
+  return type
 }
 
 
@@ -133,7 +134,7 @@ function createChart(ch_data, ch_labels, ch_type, type){
   }
 
   webchart = new Chart(ctx, {
-    type: type,
+    type: change_typ(),
     data: {
       labels: ch_labels,
       datasets: [{
