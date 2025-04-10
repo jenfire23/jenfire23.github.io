@@ -1,7 +1,7 @@
 const ctx = document.getElementById('myChart');
 var type = 'pie'
 var webchart
-var i_typ = 0
+
 
 fetch('values.json')
 .then(function(response){
@@ -57,7 +57,6 @@ function graph_out(data) {
 
 
 function json_out(data, btn_col, bt) {
-  //document.getElementById("change").addEventListener('click', change_typ(i_typ))
   var ch_chart = []
   var d_labels = {}
   var d_data = {}
@@ -112,34 +111,13 @@ function new_btn(data, col) {
   page.appendChild(element);
 }
 
-
-
-function change_typ() {
-  var typs = ["bar", "pie", "line"]
-  console.log(i_typ)
-  console.log(type)
-  if (i_typ != 2) {
-    i_typ += 1
-    console.log(i_typ)
-  }
-  else {i_typ = 0
-    console.log(i_typ)
-  }
-  type = typs[i_typ]
-  console.log(i_typ)
-  console.log(type)
-  return type
-}
-
-
-
 function createChart(ch_data, ch_labels, ch_type, type){
   if (webchart) {
     webchart.destroy()
   }
 
   webchart = new Chart(ctx, {
-    type: change_typ(),
+    type: type,
     data: {
       labels: ch_labels,
       datasets: [{
