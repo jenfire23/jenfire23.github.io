@@ -76,8 +76,8 @@ function json_out(data, cr) {
         ch_data.push(ch_d)
       }
       coll = data[el][col]
-      d_labels[col] = ch_labels
-      d_data[col] = ch_data
+      d_labels[coll] = ch_labels
+      d_data[coll] = ch_data
     }
     console.log(ch_labels)
     console.log(ch_data)
