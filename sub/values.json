@@ -1,33 +1,32 @@
 [
  {
-  "Type": {
-   "MacBook": 7,
-   "iPhone": 11,
-   "iPad": 2
+  "Marke": {
+   "Fiat": 1
   }
  },
  {
-  "Name": {
-   "MacBook Air M4": 7,
-   "iPhone 16 Pro": 9,
-   "iPhone 16": 1,
-   "iPad Pro M4": 2,
-   "iPhone 15 Pro Max": 1
+  "Modell": {
+   "Multipla": 1
   }
  },
  {
-  "Price": {
-   "999.0": 7,
-   "1300.0": 9,
-   "900.0": 2,
-   "3000.0": 2
+  "Baujahr": {
+   "2000": 1
   }
  },
  {
-  "Year": {
-   "2025": 7,
-   "2024": 12,
-   "2023": 1
+  "Kilometer": {
+   "110000.0": 1
+  }
+ },
+ {
+  "Leistung": {
+   "103": 1
+  }
+ },
+ {
+  "Preis": {
+   "2700.0": 1
   }
  }
 ]
