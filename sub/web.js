@@ -120,8 +120,11 @@ function change_typ() {
   console.log(type)
   if (i_typ != 2) {
     i_typ += 1
+    console.log(i_typ)
   }
-  else {i_typ = 0}
+  else {i_typ = 0
+    console.log(i_typ)
+  }
   type = typs[i_typ]
   console.log(i_typ)
   console.log(type)
