@@ -1,7 +1,7 @@
 [
  {
   "Marke": {
-   "Fiat": 1,
+   "Fiat": -1,
    "Porsche": 5,
    "Audi": 4,
    "BMW": 4,
@@ -12,7 +12,7 @@
  },
  {
   "Modell": {
-   "Multipla": 1,
+   "Multipla": -1,
    "Cayenne": 1,
    "A3 1.4 TFSI": 1,
    "320d Touring": 1,
