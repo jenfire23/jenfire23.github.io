@@ -94,7 +94,7 @@ function json_out(data, btn_col, bt) {
     console.log(btn_col)
 
     //if (cr == 1) {
-      createChart(chart_d, chart_l, ch_labels, type) // Data - Label - Column - ChartType
+      createChart(chart_d, chart_l, btn_col, type) // Value - Label - Column - ChartType
     //  cr = 0
     //}
   }
