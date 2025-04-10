@@ -83,8 +83,8 @@ function json_out(data, cr) {
     console.log(ch_labels)
     console.log(ch_data)
     console.log(ch_chart)
-    console.log(`labels: ${d_labels}`)
-    console.log(`data: ${d_data}`)
+    console.log(d_labels)
+    console.log(d_data)
 
     //if (cr == 1) {
       createChart(ch_data, ch_labels, ch_type, type)
