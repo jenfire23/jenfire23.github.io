@@ -116,6 +116,8 @@ function new_btn(data, col) {
 
 function change_typ() {
   var typs = ["bar", "pie", "line"]
+  console.log(i_typ)
+  console.log(type)
   if (i_typ != 2) {
     i_typ += 1
   }
