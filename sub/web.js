@@ -56,7 +56,7 @@ function graph_out(data) {
 }
 
 
-function json_out(data, btn_col) {
+function json_out(data, btn_col, bt) {
   var ch_chart = []
   var d_labels = {}
   var d_data = {}
@@ -66,7 +66,7 @@ function json_out(data, btn_col) {
     var ch_data = []
     for (var col of Object.keys(data[el])) { // column
       console.log(`${col} \----------`);
-      if (el == 0) {new_btn(data, col)}
+      if (bt != 1) {new_btn(data, col)}
       for (var row of Object.keys(data[el][col])) { // row
         //console.log(`${row}: ${data[el][col][row]}`);
         var ch_l = row
@@ -106,7 +106,7 @@ function new_btn(data, col) {
   var element = document.createElement("button");
   element.appendChild(document.createTextNode(col));
   element.id = `votebtn-${col}`
-  element.addEventListener('click', function () {json_out(data, col)})
+  element.addEventListener('click', function () {json_out(data, col, 1)})
   var page = document.getElementById("votee");
   page.appendChild(element);
 }
