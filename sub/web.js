@@ -56,7 +56,7 @@ function graph_out(data) {
 }
 
 
-function json_out(data, cr) {
+function json_out(data, btn_col) {
   var ch_chart = []
   var d_labels = {}
   var d_data = {}
@@ -88,8 +88,11 @@ function json_out(data, cr) {
     console.log(d_data["Fach"])
     console.log(d_labels["Fach"])
 
+    var chart_l = d_labels[btn_col]
+    var chart_d = d_data[btn_col]
+
     //if (cr == 1) {
-      createChart(ch_data, ch_labels, ch_type, type)
+      createChart(chart_d, ch_labels, chart_l, type) // Data - Label - Column - ChartType
     //  cr = 0
     //}
   }
@@ -101,6 +104,7 @@ function new_btn(col) {
   var element = document.createElement("button");
   element.appendChild(document.createTextNode(col));
   element.id = `votebtn-${col}`
+  element.addEventListener('click', function () {json_out(col)})
   var page = document.getElementById("votee");
   page.appendChild(element);
 }
