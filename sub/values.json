@@ -1,36 +1,33 @@
 [
  {
-  "Note": {
-   "1.0": 5,
-   "2.0": 6,
-   "3.0": 3,
-   "4.0": 2,
-   "5.0": 1,
-   "6.0": 1
+  "Type": {
+   "MacBook": 7,
+   "iPhone": 11,
+   "iPad": 2
   }
  },
  {
   "Name": {
-   "": 18
+   "MacBook Air M4": 7,
+   "iPhone 16 Pro": 9,
+   "iPhone 16": 1,
+   "iPad Pro M4": 2,
+   "iPhone 15 Pro Max": 1
   }
  },
  {
-  "Typ": {
-   "Klausur": 13,
-   "Test": 1,
-   "Ausarbeitung": 1,
-   "Pr\u00e4sentation": 2,
-   "Projekt": 1
+  "Price": {
+   "999.0": 7,
+   "1300.0": 9,
+   "900.0": 2,
+   "3000.0": 2
   }
  },
  {
-  "Fach": {
-   "Deutsch": 8,
-   "ITN": 3,
-   "Englisch": 2,
-   "AEW": 3,
-   "Politik": 1,
-   "Mathematik": 1
+  "Year": {
+   "2025": 7,
+   "2024": 12,
+   "2023": 1
   }
  }
 ]
