@@ -39,17 +39,17 @@ function graph_out(data) {
   for (var tp of Object.keys(data)) {
     for (var tp2 of Object.keys(data[tp])) {
       for (var tp3 of Object.keys(data[tp][tp2])) {
-        console.log(tp3)
+        //console.log(tp3)
         var lst = []
         for (var tp4 of Object.keys(data[tp][tp2][tp3])) {
           var tp5 = data[tp][tp2][tp3][tp4]
-          console.log(`${tp4}  | ${tp5}`)
+          //console.log(`${tp4}  | ${tp5}`)
           lst.push(tp5)
         }
-        console.log("------")
-        console.log(lst)
+        //console.log("------")
+        //console.log(lst)
         dat[tp4] = lst
-        console.log(dat)
+        //console.log(dat)
       }
     }
   }
