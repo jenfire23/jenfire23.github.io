@@ -57,6 +57,7 @@ function graph_out(data) {
 
 
 function json_out(data, btn_col, bt) {
+  document.getElementById("change").addEventListener('click', change_typ(i_typ))
   var ch_chart = []
   var d_labels = {}
   var d_data = {}
@@ -111,7 +112,7 @@ function new_btn(data, col) {
   page.appendChild(element);
 }
 
-document.getElementById("change").addEventListener('click', change_typ(i_typ))
+
 
 function change_typ(i_typ) {
   var typs = ["bar", "pie", "line"]
