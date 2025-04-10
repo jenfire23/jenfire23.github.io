@@ -57,7 +57,7 @@ function graph_out(data) {
 
 
 function json_out(data, btn_col, bt) {
-  document.getElementById("change").addEventListener('click', change_typ(i_typ))
+  //document.getElementById("change").addEventListener('click', change_typ(i_typ))
   var ch_chart = []
   var d_labels = {}
   var d_data = {}
