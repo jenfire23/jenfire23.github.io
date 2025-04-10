@@ -58,6 +58,8 @@ function graph_out(data) {
 
 function json_out(data, cr) {
   var ch_chart = []
+  var d_labels = {}
+  var d_data = {}
   for (var el of Object.keys(data)) { // json
     console.log(el)
     var ch_labels = []
@@ -73,10 +75,14 @@ function json_out(data, cr) {
         ch_labels.push(ch_l)
         ch_data.push(ch_d)
       }
+      d_labels[col] = ch_labels
+      d_data[col] = ch_data
     }
     console.log(ch_labels)
     console.log(ch_data)
     console.log(ch_chart)
+    console.log(`labels: ${d_labels}`)
+    console.log(`data: ${d_data}`)
 
     //if (cr == 1) {
       createChart(ch_data, ch_labels, ch_type, type)
