@@ -75,6 +75,7 @@ function json_out(data, cr) {
         ch_labels.push(ch_l)
         ch_data.push(ch_d)
       }
+      coll = data[el][col]
       d_labels[col] = ch_labels
       d_data[col] = ch_data
     }
