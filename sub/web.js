@@ -66,7 +66,7 @@ function json_out(data, btn_col) {
     var ch_data = []
     for (var col of Object.keys(data[el])) { // column
       console.log(`${col} \----------`);
-      new_btn(col)
+      new_btn(data, col)
       for (var row of Object.keys(data[el][col])) { // row
         //console.log(`${row}: ${data[el][col][row]}`);
         var ch_l = row
