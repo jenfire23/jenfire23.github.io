@@ -91,6 +91,8 @@ function json_out(data, btn_col) {
     var chart_l = d_labels[btn_col]
     var chart_d = d_data[btn_col]
 
+    console.log(btn_col)
+
     //if (cr == 1) {
       createChart(chart_d, ch_labels, chart_l, type) // Data - Label - Column - ChartType
     //  cr = 0
