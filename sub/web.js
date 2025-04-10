@@ -78,10 +78,10 @@ function json_out(data, cr) {
     console.log(ch_data)
     console.log(ch_chart)
 
-    if (cr == 1) {
-      createChart(ch_data, ch_labels, ch_type, type)
-      cr = 0
-    }
+    //if (cr == 1) {
+    //  createChart(ch_data, ch_labels, ch_type, type)
+    //  cr = 0
+    //}
   }
   time_graph()
 }
