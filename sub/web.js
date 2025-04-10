@@ -106,7 +106,7 @@ function new_btn(col) {
   var element = document.createElement("button");
   element.appendChild(document.createTextNode(col));
   element.id = `votebtn-${col}`
-  element.addEventListener('click', function () {json_out(col)})
+  element.addEventListener('click', function () {json_out(data, col)})
   var page = document.getElementById("votee");
   page.appendChild(element);
 }
