@@ -1,4 +1,4 @@
-fetch('sub/info.json')
+fetch('sub/info.json') // Get website info (data time, update time)
             .then(response => response.json()) // Parse JSON
             .then(function(data) {
                 console.log(data) // Work with JSON data
