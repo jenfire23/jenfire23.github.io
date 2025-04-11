@@ -93,7 +93,7 @@ function json_out(data, btn_col, bt) { // Building normal graph
 
     console.log(btn_col)
 
-    createChart(chart_d, chart_l, btn_col, change_typ()) // Create Chart with the parameters | Value - Label - Column - ChartType
+      createChart(chart_d, chart_l, btn_col, change_typ()) // Create Chart with the parameters | Value - Label - Column - ChartType
   }
   time_graph()
 }
