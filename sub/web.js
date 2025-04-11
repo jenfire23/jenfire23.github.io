@@ -80,7 +80,7 @@ function json_out(data, btn_col, bt) { // Building normal graph
       d_labels[col] = ch_labels
       d_data[col] = ch_data
     }
-    console.log(ch_labels)// Console logs fpr testing
+    console.log(ch_labels)// Console logs for testing
     console.log(ch_data)
     console.log(ch_chart)
     console.log(d_labels)
@@ -93,8 +93,7 @@ function json_out(data, btn_col, bt) { // Building normal graph
 
     console.log(btn_col)
 
-    createChart(chart_d, chart_l, btn_col, change_typ()) // Create Chart with the parameters
-               // Value - Label - Column - ChartType
+    createChart(chart_d, chart_l, btn_col, change_typ()) // Create Chart with the parameters // Value - Label - Column - ChartType
   }
   time_graph()
 }
