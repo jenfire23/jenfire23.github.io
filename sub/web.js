@@ -110,7 +110,7 @@ function new_btn(data, col) { // Create buttons above (for column change) | data
 }
 
 function change_typ() {
-  var typs = ["bar", "pie", "line"]
+  var typs = ["bar", "doughnut", "line"]
   console.log(i_typ)
   console.log(type)
   if (i_typ != 2) {
